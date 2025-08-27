@@ -46192,8 +46192,14 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .u-header .u-hamburger-link-1 {
+    padding-left: 6px;
+    padding-right: 6px;
   }
 }
 @media (max-width: 575px) {
@@ -46217,13 +46223,12 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-header .u-menu-1 {
     margin-top: 12px;
-    margin-right: 12px;
-    margin-bottom: 11px;
+    margin-right: -21px;
   }
 
   .u-header .u-hamburger-link-1 {
-    font-size: calc(1em + 7.4px);
-    padding: 4px 13px;
+    font-size: calc(1em + 13px);
+    padding: 7px 10px;
   }
 }
  .u-footer {

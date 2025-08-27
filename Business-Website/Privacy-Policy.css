@@ -1,7 +1,6 @@
  .u-section-1 {
   background-image: url("../images/photo-1583591900414-7031eb309cb6.jpeg");
   min-height: 564px;
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-group-1 {
@@ -28,6 +27,7 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
+    background-position: 50% 50%;
     background-size: cover;
     min-height: 465px;
   }
@@ -84,7 +84,6 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    background-position: 50% 50%;
     min-height: 168px;
   }
 
