@@ -88,7 +88,8 @@
                 <div class="u-align-center u-container-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-container-style u-layout-cell u-left-cell u-palette-1-light-3 u-radius u-shape-round u-size-35-md u-size-35-sm u-size-35-xs u-size-38-lg u-size-38-xl u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0" data-animation-direction="X">
                   <div class="u-container-layout u-valign-middle-lg u-valign-middle-xl u-valign-middle-xs u-container-layout-3">
                     <h3 class="u-align-center u-text u-text-palette-2-dark-2 u-text-2"> Smarter Home. Simplified Life.</h3>
-                    <p class="u-align-center u-text u-text-font u-text-3"> We make EV charging simple, reliable, and convenient with smart solutions and expert installation—so you can power your home and vehicle with confidence.</p>
+                    <p class="u-align-center u-text u-text-font u-text-3"> We make EV charging simple, reliable, and convenient with smart solutions and expert installation—so you can power                     <script src="https://www.google.com/recaptcha/api.js" as                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                    <script src="../recaptcha-config.js" defer></script> home and vehicle with confidence.</p>
                     <div class="u-expanded-width u-list u-list-1">
                       <div class="u-repeater u-repeater-1">
                         <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
@@ -394,7 +395,7 @@
                         </label>
                       </div>
                       <div class="u-form-group u-form-group-6">
-                        <label class="u-field-label">Security Verification</label>
+                        <label class="u-field-label" for="recaptcha-3b7e">reCAPTCHA</label>
                         <div id="recaptcha-container-2" style="transform:scale(0.85);transform-origin:0 0;margin-bottom:10px;"></div>
                       </div>
                       <div class="u-align-right u-form-group u-form-submit">
@@ -426,4 +427,17 @@
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80"></section><span style="height: 44px; width: 44px; margin-left: 0px; margin-right: auto; margin-top: 0px; right: 50px; bottom: 90px;" class="u-back-to-top u-file-icon u-icon u-opacity u-opacity-85" data-href="#"><img src="../images/Screenshot2025-08-26at9.59.29AM1.png" alt=""></span>
   
-</body></html>
+</body>
+<script>
+  function onRecaptchaSuccess(token) {
+  document.querySelector('input[name="recaptchaResponse"]').value = token;
+}
+
+grecaptcha.ready(function() {
+  grecaptcha.render('recaptcha-container-2', {
+    'sitekey': 'YOUR_SITE_KEY',
+    'callback': onRecaptchaSuccess
+  });
+});
+</script>
+</html>

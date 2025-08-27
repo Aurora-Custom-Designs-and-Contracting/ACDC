@@ -1,11 +1,10 @@
 // reCAPTCHA Configuration
-// Replace with your actual reCAPTCHA keys from Google reCAPTCHA Console
+// Only the site key (public key) should be in client-side code
+// Secret key must be kept secure on server-side only!
 const RECAPTCHA_CONFIG = {
-    // Site key (public key) - visible in client-side code
-    SITE_KEY: '6LdM47QrAAAAAJNMMFVqCpZYwICljrO_PasxiiBY',
-    
-    // Secret key (private key) - should be kept secure on server-side only
-    SECRET_KEY: '6LdM47QrAAAAAMtkHWnzUWRZrXjJueAACr_XwYjG'
+    // Site key (public key) - safe to expose in client-side code
+    SITE_KEY: '6LdM47QrAAAAAJNMMFVqCpZYwICljrO_PasxiiBY'
+    // Note: SECRET_KEY removed for security - must be handled server-side
 };
 
 // Initialize reCAPTCHA when page loads
