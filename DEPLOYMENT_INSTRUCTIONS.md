@@ -4,7 +4,7 @@
 Your website now has a complete secure reCAPTCHA implementation with server-side verification. This guide will help you deploy the solution to your production hosting environment.
 
 ## Current Setup Status ✅
-- [x] Client-side reCAPTCHA v3 configured with site key only
+- [x] Client-side reCAPTCHA v2 Invisible Badge configured with site key only
 - [x] Secret keys secured in `.env.recaptcha` (not committed to git)
 - [x] `.gitignore` configured to protect sensitive files
 - [x] PHP server-side processor (`process-contact.php`) created

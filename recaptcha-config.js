@@ -1,9 +1,9 @@
-// reCAPTCHA Configuration
+// reCAPTCHA v2 Invisible Badge Configuration
 // Only the site key (public key) should be in client-side code
 // Secret key must be kept secure on server-side only!
 const RECAPTCHA_CONFIG = {
     // Site key (public key) - safe to expose in client-side code
-    SITE_KEY: '6LdM47QrAAAAAJNMMFVqCpZYwICljrO_PasxiiBY'
+    SITE_KEY: '6LdVIbUrAAAAAC9x2JMwRqokYJon2gpW3pRaAYKO'
     // Note: SECRET_KEY removed for security - must be handled server-side
 };
 

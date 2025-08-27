@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-    // Initialize reCAPTCHA v3
+    // Initialize reCAPTCHA v2 Invisible Badge
     if (typeof grecaptcha !== 'undefined') {
         grecaptcha.ready(function() {
-            console.log('reCAPTCHA v3 ready for GitHub Pages deployment');
+            console.log('reCAPTCHA v2 Invisible Badge ready for GitHub Pages deployment');
         });
     }
 
