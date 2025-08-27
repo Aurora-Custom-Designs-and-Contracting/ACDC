@@ -9,7 +9,9 @@
 <link rel="stylesheet" href="Privacy-Policy.css" media="screen">
     <script class="u-script" type="text/javascript" src="../jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="../Pepper.js" defer=""></script>
-    </head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="../recaptcha-config.js" defer></script>
+  </head>
     
     
     
@@ -312,6 +314,10 @@ please contact:&nbsp;<br>
                       <div class="u-form-group u-form-message">
                         <label for="message-daf4" class="u-label">Message</label>
                         <textarea placeholder="" rows="4" cols="50" id="message-daf4" name="message" class="u-border-2 u-border-grey-25 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" required=""></textarea>
+                      </div>
+                      <div class="u-form-group u-form-group-5">
+                        <label class="u-field-label" style="color: #ffffff;">Security Verification</label>
+                        <div id="recaptcha-container-4" style="transform:scale(0.85);transform-origin:0 0;margin-bottom:10px;"></div>
                       </div>
                       <div class="u-align-left u-form-group u-form-submit">
                         <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-palette-1-light-2 u-text-palette-2-dark-1 u-btn-1">Submit</a>

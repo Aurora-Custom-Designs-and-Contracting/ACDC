@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="../Pepper.css" media="screen">
 <link rel="stylesheet" href="GENERAC.css" media="screen">
     <script class="u-script" type="text/javascript" src="../jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="../nicepage.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="../Pepper.js" defer=""></script>
+    <!-- reCAPTCHA v2 API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="../recaptcha-config.js" defer></script>
     </head>
     
     
@@ -422,6 +425,18 @@
                       <div class="u-form-group u-form-message">
                         <label for="message-319a" class="u-label u-text-body-alt-color u-label-4">Message</label>
                         <textarea placeholder="Enter your message" rows="4" cols="50" id="message-319a" name="message" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required=""></textarea>
+                      </div>
+                      <div class="u-form-checkbox u-form-group u-form-group-4">
+                        <input type="checkbox" id="checkbox-terms" name="checkbox" value="On" class="u-field-input" required="">
+                        <label for="checkbox-terms" class="u-field-label">
+                          <a href="Terms-of-Service.html" data-page-id="40589704" class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-btn-3" title="Terms of Service">
+                            <span style="text-wrap: wrap; color: #ffffff;">I accept the Terms of Service</span>
+                          </a>
+                        </label>
+                      </div>
+                      <div class="u-form-group u-form-group-5">
+                        <label class="u-field-label" style="color: #ffffff;">Security Verification</label>
+                        <div id="recaptcha-container-4" style="transform:scale(0.85);transform-origin:0 0;margin-bottom:10px;"></div>
                       </div>
                       <div class="u-align-left u-form-group u-form-submit">
                         <a href="#" class="u-active-white u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-white u-palette-1-light-1 u-radius-50 u-btn-2">Send message</a>

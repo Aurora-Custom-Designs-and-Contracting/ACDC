@@ -9,7 +9,10 @@
 <link rel="stylesheet" href="Electrical.css" media="screen">
     <script class="u-script" type="text/javascript" src="../jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="../Pepper.js" defer=""></script>
-</home>
+    <!-- reCAPTCHA v2 API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="../recaptcha-config.js" defer></script>
+</head>
     
     
     
@@ -525,6 +528,10 @@
                             </font>Terms of Service 
                           </a>
                         </label>
+                      </div>
+                      <div class="u-form-group u-form-group-8">
+                        <label class="u-field-label" style="color: #ffffff;">Security Verification</label>
+                        <div id="recaptcha-container-3" style="transform:scale(0.85);transform-origin:0 0;margin-bottom:10px;"></div>
                       </div>
                       <div class="u-align-center u-form-group u-form-submit u-form-group-7">
                         <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-palette-2-dark-1 u-btn-2">Submit</a>

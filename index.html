@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="index.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="Pepper.js" defer=""></script>
+    <!-- reCAPTCHA v2 API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="recaptcha-config.js" defer></script>
     </head>
 
     
@@ -680,6 +683,10 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                       <input type="checkbox" id="agree-2953" name="agree" class="u-agree-checkbox u-field-input" required="">
                       <label for="agree-2953" class="u-agree-label u-field-label">I accept the <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-2-dark-1 u-btn-3" href="Business-Website/Terms-of-Service.html" data-page-id="40589704" title="Terms of Use">Terms of Service</a>
                       </label>
+                    </div>
+                    <div class="u-form-group u-form-group-6">
+                      <label class="u-field-label">Security Verification</label>
+                      <div id="recaptcha-container" style="transform:scale(0.85);transform-origin:0 0;margin-bottom:10px;"></div>
                     </div>
                     <div class="u-align-right u-form-group u-form-submit">
                       <a href="#" class="u-active-palette-1-light-2 u-border-active-palette-4-light-1 u-border-hover-palette-4-light-1 u-border-none u-btn u-btn-submit u-button-style u-hover-palette-1-light-1 u-palette-1-light-2 u-text-active-black u-text-body-alt-color u-text-hover-white u-btn-4">submit</a>
