@@ -379,4 +379,18 @@ please contact:&nbsp;<br>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80"></section><span style="height: 44px; width: 44px; margin-left: 0px; margin-right: auto; margin-top: 0px; right: 50px; bottom: 90px;" class="u-back-to-top u-file-icon u-icon u-opacity u-opacity-85" data-href="#"><img src="../images/Screenshot2025-08-26at9.59.29AM1.png" alt=""></span>
   
+<script>
+  function onRecaptchaSuccess(token) {
+    document.querySelector('input[name="recaptchaResponse"]').value = token;
+  }
+
+  grecaptcha.ready(function() {
+    grecaptcha.render('recaptcha-container-4', {
+      'sitekey': '6LfVKqIqAAAAAMTHXmxVabdx7bhF6-TpKYf3RrOu',
+      'size': 'invisible',
+      'badge': 'inline',
+      'callback': onRecaptchaSuccess
+    });
+  });
+</script>
 </body></html>

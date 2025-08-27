@@ -430,14 +430,16 @@
 </body>
 <script>
   function onRecaptchaSuccess(token) {
-  document.querySelector('input[name="recaptchaResponse"]').value = token;
-}
+    document.querySelector('input[name="recaptchaResponse"]').value = token;
+  }
 
-grecaptcha.ready(function() {
-  grecaptcha.render('recaptcha-container-2', {
-    'sitekey': 'YOUR_SITE_KEY',
-    'callback': onRecaptchaSuccess
+  grecaptcha.ready(function() {
+    grecaptcha.render('recaptcha-container-2', {
+      'sitekey': '6LfVKqIqAAAAAMTHXmxVabdx7bhF6-TpKYf3RrOu',
+      'size': 'invisible',
+      'badge': 'inline',
+      'callback': onRecaptchaSuccess
+    });
   });
-});
 </script>
 </html>
