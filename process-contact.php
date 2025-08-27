@@ -59,10 +59,10 @@ try {
     }
     
     // Validate and sanitize input data
-    $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+    $name = trim(strip_tags($_POST['name'] ?? ''));
     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-    $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
-    $recaptchaResponse = filter_input(INPUT_POST, 'recaptchaResponse', FILTER_SANITIZE_STRING);
+    $message = trim(strip_tags($_POST['message'] ?? ''));
+    $recaptchaResponse = trim(strip_tags($_POST['recaptchaResponse'] ?? ''));
     $agree = filter_input(INPUT_POST, 'agree', FILTER_VALIDATE_BOOLEAN);
     
     // Validation
