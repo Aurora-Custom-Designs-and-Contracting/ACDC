@@ -2,10 +2,10 @@
 // Replace with your actual reCAPTCHA keys from Google reCAPTCHA Console
 const RECAPTCHA_CONFIG = {
     // Site key (public key) - visible in client-side code
-    SITE_KEY: 'YOUR_SITE_KEY_HERE',
+    SITE_KEY: '6LdM47QrAAAAAJNMMFVqCpZYwICljrO_PasxiiBY',
     
     // Secret key (private key) - should be kept secure on server-side only
-    SECRET_KEY: 'YOUR_SECRET_KEY_HERE'
+    SECRET_KEY: '6LdM47QrAAAAAMtkHWnzUWRZrXjJueAACr_XwYjG'
 };
 
 // Initialize reCAPTCHA when page loads
