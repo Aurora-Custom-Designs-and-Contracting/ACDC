@@ -38,3 +38,35 @@ build/
 *.bak
 *.backup
 *.tmp
+
+# Build and optimization files
+*.min.html
+*.optimized.*
+compress/
+optimized/
+
+# Process manager files
+*.pid
+*.lock
+pids/
+logs/
+
+# Coverage and test files
+coverage/
+*.lcov
+.nyc_output/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.sass-cache/
+.eslintcache
+
+# Development certificates
+*.pem
+*.key
+*.cert
+
+# Temporary upload files
+uploads/
+temp/
