@@ -3,7 +3,7 @@
 // Secret key must be kept secure on server-side only!
 const RECAPTCHA_CONFIG = {
     // Site key (public key) - safe to expose in client-side code
-    SITE_KEY: '6LdVIbUrAAAAAC9x2JMwRqokYJon2gpW3pRaAYKO'
+    SITE_KEY: '6LfVKqIqAAAAAMTHXmxVabdx7bhF6-TpKYf3RrOu'
     // Note: SECRET_KEY removed for security - must be handled server-side
 };
 
