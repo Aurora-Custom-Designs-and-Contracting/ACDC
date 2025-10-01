@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(rgba(209, 181, 141, 0.5), rgba(209, 181, 141, 0.5));
+  background-image: linear-gradient(rgba(218, 212, 205, 0.5), rgba(218, 212, 205, 0.5));
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 1056px;
+  width: 1256px;
   height: 684px;
   object-position: 0% 0%;
   --animation-custom_in-translate_x: 0px;
@@ -22,7 +22,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -516px auto 0 calc(((100% - 1140px) / 2));
+  margin: -516px auto 0 calc(((94% - 1140px) / 2));
 }
 
 .u-section-1 .u-group-1 {
@@ -302,7 +302,7 @@
   grid-template-columns: repeat(2, calc(50% - 17px));
   min-height: 378px;
   grid-auto-columns: calc(50% - 17px);
-  --gap: 34px;
+  --gap: 4px;
 }
 
 .u-section-2 .u-container-layout-6 {
@@ -1371,7 +1371,7 @@
 
 .u-section-5 .u-list-1 {
   grid-template-rows: repeat(2, auto);
-  width: 738px;
+  width: 938px;
   margin: 0 0 0 auto;
 }
 
@@ -1384,7 +1384,7 @@
 
 .u-section-5 .u-image-1 {
   background-size: cover;
-  background-image: url("../images/AdobeStock_568476534.jpeg");
+  background-image: url("../images/Brand_EV_ACDC.png");
   background-position: 55.93% 50%;
 }
 
@@ -1684,7 +1684,7 @@
 }
 
 .u-section-6 .u-image-2 {
-  background-image: url("../images/Genrac-Guardian-Series-Automatic-Standby-Generator.jpg");
+  background-image: url("../images/Generac_Service_Tech.png");
   background-position: 50% 50%;
   min-height: 592px;
 }
@@ -2876,7 +2876,7 @@
     width: 16px;
   }
 } .u-section-11 {
-  background-image: linear-gradient(to bottom, rgba(209, 181, 141, 0.5), rgba(209, 181, 141, 0.5));
+  background-image: linear-gradient(to bottom, rgba(227, 223, 217, 1), rgba(227, 223, 217, 1));
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
