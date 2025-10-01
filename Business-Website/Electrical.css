@@ -14,9 +14,9 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 1256px;
+  width: 1266px;
   height: 684px;
-  object-position: 0% 0%;
+  object-position: 40% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -96,7 +96,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    object-position: 100% 0%;
+    object-position: 40% 50%;
     width: 720px;
     height: 445px;
     margin-top: -273px;
