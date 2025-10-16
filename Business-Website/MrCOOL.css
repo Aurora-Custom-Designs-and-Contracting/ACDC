@@ -1477,6 +1477,7 @@
     margin-top: 140px;
     margin-right: initial;
     margin-left: initial;
+    margin-bottom: -180px;
     width: auto;
   }
 
@@ -1492,7 +1493,21 @@
   }
 
   .u-section-9 .u-icon-1 {
-    margin-top: -960px;
-    margin-right: -11px;
+    width: 80px;
+    height: 80px;
+    margin-top: -910px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 100;
+    display: block !important;
+    visibility: visible !important;
+    float: right;
+  }
+
+  /* Ensure parent containers don't hide the icon */
+  .u-section-9 .u-group-1,
+  .u-section-9 .u-container-layout-1 {
+    overflow: visible !important;
   }
 }
