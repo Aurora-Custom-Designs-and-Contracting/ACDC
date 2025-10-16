@@ -33,10 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         try {
-            // Get reCAPTCHA token
+            // Get reCAPTCHA v3 token
             let recaptchaToken = '';
-            if (typeof grecaptcha !== 'undefined') {
-                recaptchaToken = await grecaptcha.execute(window.recaptchaSiteKey, {action: 'submit'});
+            if (typeof grecaptcha !== 'undefined' && window.recaptchaSiteKey) {
+                recaptchaToken = await grecaptcha.execute(window.recaptchaSiteKey, {action: 'contact_form'});
             }
 
             // Prepare form data
@@ -180,13 +180,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Instructions for Formspree integration
 console.log(`
-🚀 GitHub Pages Deployment Instructions:
+🚀 Formspree Setup Instructions:
 
 1. Sign up for Formspree at https://formspree.io
 2. Create a new form and get your form endpoint
-3. Update your HTML form action to: action="https://formspree.io/f/YOUR_FORM_ID"
-4. Replace this script with secure-form-handler.js in your HTML
-5. Enable GitHub Pages in your repository settings
+3. Replace "YOUR_FORM_ID" in your HTML form action with your actual Formspree ID
+4. Your form is now configured to work with Formspree!
+5. reCAPTCHA will work for spam protection
 
-Your reCAPTCHA integration will work client-side for spam protection!
+Current form action: ${document.getElementById('contact-form')?.action || 'Form not found'}
 `);
