@@ -1289,7 +1289,7 @@
   min-height: 496px;
   height: auto;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: -592px auto 0 90px;
+  margin: -548px auto 0 30px;
 }
 
 .u-section-9 .u-container-layout-2 {
@@ -1321,7 +1321,7 @@
   height: 129px;
   transform-origin: center center;
   transform: scaleX(-1);
-  margin: -690px 10px 0 920px;
+  margin: -604px 10px 0 920px;
   padding: 0;
 }
 
@@ -1474,7 +1474,7 @@
 
   .u-section-9 .u-group-2 {
     min-height: 500px;
-    margin-top: -41px;
+    margin-top: 140px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
