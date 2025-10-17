@@ -1017,7 +1017,7 @@
     width: auto;
     margin-top: 0;
     margin-right: 380px;
-    margin-left: 91px;
+    margin-left: 151px;
   }
 
   .u-section-3 .u-text-2 {
@@ -1037,7 +1037,7 @@
     font-size: 1.25rem;
     margin-top: 30px;
     margin-right: 358px;
-    margin-left: 91px;
+    margin-left: 151px;
   }
 
   .u-section-3 .u-text-4 {
@@ -1278,17 +1278,17 @@
 
   .u-section-4 .u-text-1 {
     font-size: 1.5rem;
-    width: 359px;
+    width: 459px;
     margin-top: 13px;
-    margin-left: auto;
+    margin-left: 151px;
     margin-right: auto;
   }
 
   .u-section-4 .u-text-2 {
     font-size: 0.75rem;
-    width: 359px;
+    width: 459px;
     margin-top: 27px;
-    margin-left: auto;
+    margin-left: 120px;
     margin-right: auto;
   }
 }
