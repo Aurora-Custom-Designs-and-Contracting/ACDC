@@ -1359,7 +1359,7 @@
 
 .u-section-5 .u-text-1 {
   font-size: 2.25rem;
-  margin: 129px 0 0 30px;
+  margin: 59px 0 0 30px;
 }
 
 .u-section-5 .u-text-2 {
@@ -1373,23 +1373,40 @@
   border-style: solid;
   text-transform: uppercase;
   margin: 57px auto 0 30px;
-  padding: 2px 0;
+  padding: 2px 0 0 104px;
 }
 
+
+.u-section-6 .u-text-1 {
+  font-size: 2.25rem;
+  margin: 158px 0 0 28px;
+  padding: 2px 0 0 104px;
+}
+
+.u-section-6 .u-text-2 {
+  font-size: 1rem;
+  margin: 58px 51px 0 28px;
+  padding: 2px 0 0 104px;
+}
 
 .u-section-6 .u-btn-1 {
-  font-size: 0.75rem;
-  letter-spacing: 1px;
-  border-style: solid;
-  text-transform: uppercase;
-  margin: 58px auto 0 104px;
-  padding: 2px 0;
+  font-size: 0.75rem !important;
+  line-height: 1 !important;
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto !important;
 }
+
 
 .u-section-6 .u-image-1 {
   background-image: url("../images/Brand_EV_ACDC.png");
   background-position: 50% 50%;
   min-height: 592px;
+}
+
+.u-section-6 .u-container-layout-1 {
+  justify-content: flex-start !important;
 }
 
 .u-section-6 .u-container-layout-2 {
@@ -1492,12 +1509,12 @@
   }
 
   .u-section-6 .u-text-2 {
+    margin-top: 58px;
+    margin-right: 43px;
     margin-left: 0;
+    margin-bottom: 0;
   }
 
-  .u-section-6 .u-btn-1 {
-    margin-left: 0;
-  }
 
   .u-section-6 .u-layout-cell-2 {
     min-height: 640px;
@@ -1600,7 +1617,7 @@
   .u-section-6 .u-text-1 {
     font-size: 1.875rem;
     width: auto;
-    margin-top: 59px;
+    margin-top: 139px;
     margin-right: 107px;
     margin-left: 9px;
   }
@@ -1612,10 +1629,6 @@
     margin-left: 9px;
   }
 
-  .u-section-6 .u-btn-1 {
-    margin-top: 29px;
-    margin-left: 9px;
-  }
 
   .u-section-6 .u-layout-cell-3 {
     min-height: 515px;
@@ -1684,24 +1697,18 @@
 
   .u-section-6 .u-text-1 {
     font-size: 1.25rem;
-    margin-top: 0;
-    margin-right: 364px;
-    margin-left: 58px;
+    margin-top: 50px;
+    margin-right: 78px;
+    margin-left: -30px;
   }
 
   .u-section-6 .u-text-2 {
     font-size: 0.75rem;
-    margin-top: 0;
-    margin-right: 85px;
-    margin-left: 58px;
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-left: -30px;
   }
 
-  .u-section-6 .u-btn-1 {
-    font-size: 0.625rem;
-    margin-top: 0;
-    margin-left: 58px;
-    margin-bottom: 18px;
-  }
 
   .u-section-6 .u-layout-cell-3 {
     min-height: 235px;
@@ -1803,20 +1810,17 @@
   }
 
   .u-section-6 .u-text-1 {
+    margin-top: 20px;
     margin-right: 118px;
-    margin-left: 46px;
+    margin-left: -50px;
   }
 
   .u-section-6 .u-text-2 {
-    margin-top: 0px;
-    margin-right: 63px;
-    margin-left: 46px;
+    margin-top: 20px;
+    margin-right: 68px;
+    margin-left: -50px;
   }
 
-  .u-section-6 .u-btn-1 {
-    margin-top: 0px;
-    margin-left: 46px;
-  }
 
   .u-section-6 .u-layout-cell-3 {
     min-height: 194px;
